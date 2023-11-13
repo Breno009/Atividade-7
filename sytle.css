@@ -1,0 +1,97 @@
+
+ .titulo{
+    font-size: 30px;
+
+ }
+ .titulo2{
+    font-size: 20px;
+    text-decoration: underline;
+ }
+ .pp{
+    font-size: 17px;
+ }
+ #footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 8px;
+
+ }
+#oi{
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+ }
+ 
+ #oi2{
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+ }
+ #oi3{
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+ }
+ .botão{
+    display: flex;
+    justify-content: space-around;
+ }
+ a.green:visited{
+    color: green;
+ }
+ a.green:link{
+    color: blue
+ }
+ #tit{
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    border: 1px;
+    background-color: green;
+    font-family: Arial;
+ }
+ #fig{
+  margin: auto;
+  width: 230px;
+  height: 230px;
+  background-color: rgba(255, 0, 0, 0.137);
+  position: relative;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: 2; 
+
+ }
+ @keyframes example {
+    0%   {background-color:white; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:white; left:0px; top:0px;}
+ }
+ #mm{
+   background-color: white;
+    color: white;
+    padding: 8px;
+ }
+ #nn{
+   font-size: 20px;
+ }
+ #nm{
+   font-size: 20px;
+ }
